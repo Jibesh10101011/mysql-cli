@@ -1,0 +1,33 @@
+Command: show databases;
++--------------------+
+| Database           |
++--------------------+
+| app                |
+| as7                |
+| college            |
+| comsys             |
+| dbms               |
+| everything         |
+| inf                |
+| information_schema |
+| issues             |
+| mysql              |
+| new                |
+| new_2              |
+| performance_schema |
+| portfolio_users    |
+| prac               |
+| practice           |
+| sys                |
+| temp               |
++--------------------+
+Command: use practice
+
+Error: ERROR 1049 (42000) at line 1: Unknown database 'ss'
+Command: use prac;
+
+Error: ERROR 1049 (42000) at line 1: Unknown database 'newl'
+Error: ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[A[BUSE new' at line 1
+Command: use new;
+
+Error: ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[D[CUSE new' at line 1

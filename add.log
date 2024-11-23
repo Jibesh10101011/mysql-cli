@@ -1,0 +1,39 @@
+Command: show databases;
++--------------------+
+| Database           |
++--------------------+
+| app                |
+| as7                |
+| college            |
+| comsys             |
+| dbms               |
+| everything         |
+| inf                |
+| information_schema |
+| issues             |
+| mysql              |
+| new                |
+| new_2              |
+| performance_schema |
+| portfolio_users    |
+| prac               |
+| practice           |
+| sys                |
+| temp               |
++--------------------+
+Switched to database: new
+Command: USE new; show tables;
++---------------+
+| Tables_in_new |
++---------------+
+| boats         |
+| reserves      |
+| sailors       |
+| view_10       |
+| view_5        |
+| view_q_3      |
++---------------+
+Switched to database: boats
+Switched to database: new
+Error: ERROR 1146 (42S02) at line 1: Table 'new.new' doesn't exist
+Error: ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[A[A[B[Bselect * from sailors' at line 1
