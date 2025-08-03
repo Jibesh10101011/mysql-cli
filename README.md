@@ -49,6 +49,8 @@ password=your_password
 bash sql.sh
 ```
 
+🎥 [Watch Demo Video](https://s3.eu-north-1.amazonaws.com/jibeshroy.static.dev/Projects/mysql-shell/Code_woEGAyBaKL.mp4)
+
 * Prompts for a **file name** to save session output.
 * Lets you run any SQL command.
 * Saves command and output to:
@@ -61,6 +63,8 @@ bash sql.sh
 ```bash
 bash questions.sh
 ```
+
+🎥 [Watch Demo Video](https://s3.eu-north-1.amazonaws.com/jibeshroy.static.dev/Projects/mysql-shell/Code_eT3DHoV7Z4.mp4)
 
 * Loads questions from `questions.txt`
 * Prompts for answers in SQL form
@@ -95,7 +99,7 @@ Both will be created in the project root.
 
 ---
 
-## 📆 Features
+## 📦 Features
 
 * ✅ Interactive CLI prompt like MySQL
 * ✅ Pre-filled credentials (via `.my.cnf`)
@@ -106,7 +110,7 @@ Both will be created in the project root.
 
 ---
 
-## 🚩 Exit the Session
+## 🛑 Exit the Session
 
 Simply type:
 
@@ -115,13 +119,6 @@ exit
 ```
 
 ---
-
-## 📸 Demo Snapshot
-
-![Demo HTML Output](demo-screenshot.png) <!-- Add your screenshot here if available -->
-
----
-
 ## 📌 Notes
 
 * Make sure the `.my.cnf` path is correctly set inside the scripts.
@@ -129,11 +126,6 @@ exit
 
 ---
 
-## 🧑‍💻 Author
-
-**Jibesh Roy**
-
----
 
 ## 🏁 License
 

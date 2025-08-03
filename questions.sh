@@ -46,7 +46,7 @@ execute_mysql_command() {
         sql_command="USE $CURRENT_DATABASE; $sql_command"
     fi
 
-    output=$(mysql --defaults-file="/c/Users/Jibesh/Downloads/mysql-shell/.my.cnf" --table -e "$sql_command" 2>&1)
+    output=$(mysql --defaults-file="/d/Data/shell-scripting/shell-new/.my.cnf" --table -e "$sql_command" 2>&1)
 
     if [[ $? -ne 0 ]]; then
         echo "Error: $output"
