@@ -125,8 +125,3 @@ exit
 * You can adjust the script to add timestamps or styling if needed.
 
 ---
-
-
-## 🏁 License
-
-MIT License — free to use, modify, and distribute.
