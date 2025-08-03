@@ -1,0 +1,8 @@
+ERROR 1045 (28000): Access denied for user 'jr2634'@'localhost' (using password: YES)
+ERROR 1045 (28000): Access denied for user 'jr2634'@'localhost' (using password: YES)
+ERROR 1045 (28000): Access denied for user 'jr2634'@'localhost' (using password: YES)
+ERROR 1045 (28000): Access denied for user 'jr2634'@'localhost' (using password: YES)
+ERROR 1045 (28000): Access denied for user 'jr2634'@'localhost' (using password: YES)
+ERROR 1045 (28000): Access denied for user 'jr2634'@'localhost' (using password: NO)
+ERROR 1045 (28000): Access denied for user 'jr2634'@'localhost' (using password: YES)
+ERROR 1045 (28000): Access denied for user 'jr2634'@'localhost' (using password: YES)

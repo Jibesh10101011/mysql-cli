@@ -1,0 +1,37 @@
+Command: show databases;
++--------------------+
+| Database           |
++--------------------+
+| dbms               |
+| hello              |
+| information_schema |
+| institution        |
+| mysql              |
+| parent-server      |
+| performance_schema |
+| sys                |
++--------------------+
+Switched to database: institution
+Command: USE institution; show tables;
++-----------------------+
+| Tables_in_institution |
++-----------------------+
+| _prisma_migrations    |
+| institution           |
+| user                  |
++-----------------------+
+Command: USE institution; select * from institution limit 10;
++--------------------------------------+------+---------+---------------------------------------------------------------------+-----------------------------------------+------------------------------+-------------+------------+----------+--------------+--------------+------+
+| id                                   | s_no | round   | name                                                                | program                                 | stream                       | seat_type   | quota      | category | opening_rank | closing_rank | year |
++--------------------------------------+------+---------+---------------------------------------------------------------------+-----------------------------------------+------------------------------+-------------+------------+----------+--------------+--------------+------+
+| 0018f57d-0652-47a3-9d51-72e0cc77dd18 | 18   | Round 1 | Govt. College of Engineering & Ceramic Technology, Kolkata          | Computer Science & Engineering          | B.E./B. Tech (Lateral Entry) | WBJEE Seats | Home State | OBC - B  |          372 |          372 | 2023 |
+| 00d5ca6d-d41a-4510-82e2-e3fd51437031 | 331  | Round 1 | Jis College of Engineering, Kalyani, Nadia                          | Civil Engineering                       | B.E./B. Tech (Lateral Entry) | WBJEE Seats | All India  | Open     |         7046 |         8880 | 2023 |
+| 0127e8e7-5b82-4984-be07-f7572646c3dc | 472  | Round 1 | Adamas University, Barasat                                          | B.Pharm/Pharmaceutical Technology       | B. Pharma (Lateral Entry)    | WBJEE Seats | All India  | Open     |          179 |          409 | 2023 |
+| 0134d2e7-7b2d-4669-b970-324316d8a2ba | 1090 | Round 3 | Haldia Institute of Technology, Haldia, Purba Medinipur             | Electronics & Communication Engineering | B.E./B. Tech (Lateral Entry) | WBJEE Seats | All India  | Open     |         3408 |         3408 | 2023 |
+| 01582f59-392f-4ea8-bc69-de7663c2d2ee | 549  | Round 1 | Jadavpur University                                                 | Instrumentation & Electronics           | B.E./B. Tech (Lateral Entry) | WBJEE Seats | Home State | SC       |          114 |          114 | 2023 |
+| 01643111-685e-42c8-bd09-55a47393da8c | 933  | Round 2 | University Institute of Technology, Burdwan (Self Financing Course) | Electronics & Communication Engineering | B.E./B. Tech (Lateral Entry) | WBJEE Seats | All India  | Open     |         1796 |         3574 | 2023 |
+| 01a01e92-130b-4891-986b-04865f4aecdc | 1112 | Round 3 | Institute of Science and Technology, Paschim Medinipur              | Electrical Engineering                  | B.E./B. Tech (Lateral Entry) | WBJEE Seats | All India  | Open     |         6690 |         6690 | 2023 |
+| 01b71ab3-cb1a-4532-9967-352e39925b16 | 403  | Round 1 | Sanaka Education Trusts Group of Institutions, Durgapur, Burdwan    | Computer Science & Engineering          | B.E./B. Tech (Lateral Entry) | WBJEE Seats | All India  | Open     |         4468 |         7456 | 2023 |
+| 02a2f054-d091-4844-907d-32c7c3e0b1ed | 761  | Round 2 | Jalpaiguri Goverment Engineering College,Jalpaiguri                 | Information Technology                  | B.E./B. Tech (Lateral Entry) | WBJEE Seats | Home State | Open     |          251 |          251 | 2023 |
+| 02c6576b-9855-4f68-8195-6b97fa3fdd51 | 930  | Round 2 | University Institute of Technology, Burdwan (Self Financing Course) | Information Technology                  | B.E./B. Tech (Lateral Entry) | WBJEE Seats | Home State | SC       |         3216 |         4624 | 2023 |
++--------------------------------------+------+---------+---------------------------------------------------------------------+-----------------------------------------+------------------------------+-------------+------------+----------+--------------+--------------+------+

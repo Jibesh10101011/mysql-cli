@@ -1,0 +1,27 @@
+Error: ERROR 1046 (3D000) at line 1: No database selected
+Switched to database: new
+Command: USE new; show tables;
++---------------+
+| Tables_in_new |
++---------------+
+| boats         |
+| reserves      |
+| sailors       |
+| view_10       |
+| view_5        |
+| view_q_3      |
++---------------+
+Command: USE new; SELECT * FROM boats;
++------+--------+---------+
+| bid  | bname  | color   |
++------+--------+---------+
+|    1 | Bob    | RED     |
+|    2 | BOAT-1 | RED     |
+|    3 | BOAT-2 | GREEN   |
+|    4 | BOAT-3 | YELLOW  |
+|    5 | BOAT-5 | RGB ANY |
++------+--------+---------+
+Command: USE new; 
+
+Command: USE new; 
+

@@ -1,0 +1,12 @@
+Switched to database: new
+Command: USE new; select * from sailors;
++------+----------+--------+------+
+| sid  | sname    | rating | age  |
++------+----------+--------+------+
+|    1 | USER-1   |      5 |   18 |
+|    2 | USER-2   |      4 |   18 |
+|  101 | USER-101 |      4 |   18 |
+|  102 | USER-102 |      4 |   18 |
+|   50 | Bob      |      4 |   18 |
++------+----------+--------+------+
+Error: ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[A[Bselect * from boats' at line 1
